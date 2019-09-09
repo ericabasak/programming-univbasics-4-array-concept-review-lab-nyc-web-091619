@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
   
   while i < array.length do
     if array[i] === value_to_find
-      return array.index(value_to_find)
+      return array[i].index(value_to_find)
     else
       return nil
     end

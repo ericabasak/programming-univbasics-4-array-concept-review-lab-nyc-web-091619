@@ -1,5 +1,6 @@
 
-
+// [2, 3, 4, 5, 6]
+// 5
 
 def find_element_index(array, value_to_find)
   i = 0
